@@ -1,0 +1,3 @@
+Browser tab: 8, Title: "T2 BURGER ARTESANAL", URL: "https://t2burger.mandarpedido.com/mobile/home".
+There has been no change in the accessibility tree.
+The focused UI element is 0 AXWebArea T2 BURGER ARTESANAL, URL: t2burger.mandarpedido.com/mobile/home
