@@ -8,7 +8,7 @@
     'Produtos prioritários, ordem desejada e dados para os destaques.',
     'Quantidades, bebidas, preços e condições dos combos Casal e Galera.',
     'Cortesias, quantidades e necessidades da cozinha nas etapas.',
-    'Receitas, preparo do Vienna e fotos corretas das duas fritas, combos e Burger do Mês.',
+    'Receitas, fotos originais do Instagram e produtos retratados; fotos das fritas, combos e Burger do Mês.',
     'Pesos, unidades, molhos e embalagem dos churros no delivery.',
     'Maionese, modo de envio dos itens para casa e agrupamentos.',
     'Schweppes, peso das chips, volumes, novidades e Burger do Mês.'

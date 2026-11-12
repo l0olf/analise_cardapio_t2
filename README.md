@@ -32,7 +32,7 @@ Consulta em 12/11/2026, com a loja fechada. Analisadas a listagem completa, as p
 
 Contexto local: atas de maio e julho, transição de outubro, proposta de combos de 20/10/2026 e orientação do usuário de que essa proposta já havia sido entregue. Preços do documento são os observados no cardápio, não sugestões de novos preços. Não há relatório atual de margem ou ranking de vendas na análise.
 
-Imagens: fotos, logo e capturas do cardápio da própria T2, usados para ilustrar a análise. Exemplos de redação são identificados como sugestões. O arquivo `assets/menu-observado.txt` registra a leitura da lista pública na data da consulta.
+Imagens: fotos, logo e capturas do cardápio da própria T2, além da foto do Instagram enviada pela equipe, usadas para ilustrar a análise. A seção de apresentação compara a foto atual do Imperial com a referência do Instagram e propõe atualizar as imagens a partir dos originais, confirmando o produto retratado. Exemplos de redação são identificados como sugestões. O arquivo `assets/menu-observado.txt` registra a leitura da lista pública na data da consulta.
 
 O `noindex` solicita que buscadores não indexem a página; não substitui controle de acesso. A proposta contém apenas o conteúdo necessário ao cliente, sem os arquivos internos de transição ou conversas.
 
