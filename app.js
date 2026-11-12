@@ -8,10 +8,11 @@
     'Produtos prioritários, ordem desejada e dados para os destaques.',
     'Quantidades, bebidas, preços e condições dos combos Casal e Galera.',
     'Cortesias, quantidades e necessidades da cozinha nas etapas.',
-    'Receitas, fotos originais do Instagram e produtos retratados; fotos das fritas, combos e Burger do Mês.',
+    'Nomes, descrições, receitas atualizadas e preparo do Vienna.',
     'Pesos, unidades, molhos e embalagem dos churros no delivery.',
     'Maionese, modo de envio dos itens para casa e agrupamentos.',
-    'Schweppes, peso das chips, volumes, novidades e Burger do Mês.'
+    'Schweppes, peso das chips, volumes, novidades e Burger do Mês.',
+    'Fotos originais do Instagram e produtos retratados; fotos das fritas, combos e Burger do Mês.'
   ];
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem(key) || '{}') || {}; }
@@ -73,8 +74,9 @@
   function update() {
     const state = data();
     const count = articles.filter((_, i) => state[`decision-${i+1}`]).length;
-    document.getElementById('progress-label').textContent = `${count} de 8 pontos respondidos`;
-    document.getElementById('progress-percent').textContent = `${Math.round(count / 8 * 100)}%`;
+    document.getElementById('progress-label').textContent = `${count} de ${articles.length} pontos respondidos`;
+    document.getElementById('progress-percent').textContent = `${Math.round(count / articles.length * 100)}%`;
+    document.getElementById('progress').max = articles.length;
     document.getElementById('progress').value = count;
     try { localStorage.setItem(key, JSON.stringify(state)); }
     catch { document.getElementById('save-note').textContent = 'Este navegador não permitiu salvar as escolhas. Gere e copie sua resposta antes de fechar. Nada é enviado automaticamente.'; }
